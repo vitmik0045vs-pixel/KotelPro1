@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КотёлПро</title>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background: #f5f7fa; }
+        .container { max-width: 1000px; margin: 0 auto; background: white; padding: 40px 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); margin-top: 30px; margin-bottom: 30px; }
+        h1 { color: #FF7A45; text-align: center; font-size: 48px; margin-bottom: 10px; }
+        h2 { color: #333; border-bottom: 3px solid #FF7A45; padding-bottom: 10px; margin-top: 40px; }
+        .screenshots { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin: 30px 0; }
+        .screenshot { flex: 0 0 calc(33.333% - 20px); min-width: 200px; background: #f0f0f0; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        .screenshot img { width: 100%; height: auto; display: block; }
+        .screenshot-placeholder { background: #ddd; height: 350px; display: flex; align-items: center; justify-content: center; color: #666; font-style: italic; }
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0; }
+        .feature { background: #f9f9f9; padding: 20px; border-radius: 10px; border-left: 5px solid #FF7A45; }
+        .feature h3 { margin-top: 0; color: #FF7A45; }
+        .button { display: inline-block; background: #FF7A45; color: white; padding: 15px 30px; text-decoration: none; border-radius: 50px; font-size: 18px; font-weight: bold; margin-top: 20px; transition: background 0.3s; }
+        .button:hover { background: #e05e2e; }
+        .footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid #ddd; font-size: 0.9em; color: #666; text-align: center; }
+        .links { display: flex; gap: 30px; justify-content: center; margin: 30px 0; }
+        .links a { color: #FF7A45; text-decoration: none; font-weight: bold; }
+        .links a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔥 КотёлПро</h1>
+        <p style="text-align: center; font-size: 18px; color: #555; margin-bottom: 40px;">
+            <strong>Профессиональные калькуляторы для инженеров, монтажников и проектировщиков систем отопления</strong>
+        </p>
+        
+        <div style="text-align: center; margin-bottom: 40px;">
+            <a href="#" class="button">Скачать приложение (скоро в RuStore)</a>
+        </div>
+        
+        <h2>О приложении</h2>
+        <p>КотёлПро — это набор инструментов для быстрого и точного расчёта параметров отопительных систем. Все расчёты основаны на актуальных нормативах (СП, ГОСТ, ПУЭ) и подходят для профессионального использования.</p>
+        
+        <div class="features">
+            <div class="feature">
+                <h3>🔥 Расчёт котла</h3>
+                <p>Простой и профессиональный расчёт мощности котла с учётом теплопотерь, климатической зоны и материалов стен.</p>
+            </div>
+            <div class="feature">
+                <h3>🏠 Расчёт радиаторов</h3>
+                <p>Точный подбор количества секций с учётом типа радиатора, высоты, схемы подключения и расположения.</p>
+            </div>
+            <div class="feature">
+                <h3>🌫️ Расчёт дымохода</h3>
+                <p>Определение минимального диаметра и высоты дымохода для разных видов топлива.</p>
+            </div>
+            <div class="feature">
+                <h3>💧 Объём системы</h3>
+                <p>Расчёт объёма теплоносителя в трубах, радиаторах и регистрах.</p>
+            </div>
+            <div class="feature">
+                <h3>⚙️ Расчёт насоса</h3>
+                <p>Подбор циркуляционного насоса по расходу и напору с учётом потерь.</p>
+            </div>
+            <div class="feature">
+                <h3>⚡ Расчёт автомата</h3>
+                <p>Выбор номинала автоматического выключателя и сечения провода по ПУЭ.</p>
+            </div>
+            <div class="feature">
+                <h3>🔌 Расчёт кабеля</h3>
+                <p>Определение сечения и максимальной длины кабеля по току и падению напряжения.</p>
+            </div>
+            <div class="feature">
+                <h3>🧰 Тёплый пол</h3>
+                <p>Расчёт параметров системы тёплого пола: шаг укладки, длина контура, расход теплоносителя.</p>
+            </div>
+            <div class="feature">
+                <h3>🪣 Расширительный бак</h3>
+                <p>Подбор объёма расширительного бака по СП 41-101-95.</p>
+            </div>
+            <div class="feature">
+                <h3>🔄 Конвертер</h3>
+                <p>Конвертация единиц измерения: мощность, температура, давление, объём, сечение провода, длина, площадь.</p>
+            </div>
+        </div>
+        
+        <h2>Скриншоты</h2>
+        <p style="text-align: center; margin-bottom: 20px;">5 скриншотов приложения (будут добавлены позже)</p>
+        <div class="screenshots">
+            <div class="screenshot">
+                <div class="screenshot-placeholder">Скриншот 1</div>
+            </div>
+            <div class="screenshot">
+                <div class="screenshot-placeholder">Скриншот 2</div>
+            </div>
+            <div class="screenshot">
+                <div class="screenshot-placeholder">Скриншот 3</div>
+            </div>
+            <div class="screenshot">
+                <div class="screenshot-placeholder">Скриншот 4</div>
+            </div>
+            <div class="screenshot">
+                <div class="screenshot-placeholder">Скриншот 5</div>
+            </div>
+        </div>
+        <p style="text-align: center; font-style: italic; color: #777;">Скриншоты будут добавлены после публикации приложения</p>
+        
+        <div class="links">
+            <a href="privacy.html">Политика конфиденциальности</a>
+            <a href="terms.html">Условия использования</a>
+        </div>
+        
+        <div class="footer">
+            <p>© 2026 КотёлПро. Все права защищены.</p>
+            <p>Приложение предназначено для инженеров, монтажников и проектировщиков систем отопления.</p>
+            <p>Email: <a href="mailto:viktorsu124@yandex.ru">viktorsu124@yandex.ru</a></p>
+        </div>
+    </div>
+</body>
+</html>
